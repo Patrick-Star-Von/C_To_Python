@@ -13,6 +13,11 @@ cpp文件内部的写法如下。
 ### cpp源文件位置
 和cmake的CmakeLists.txt以及build文件夹在一个层级下即可。  
 ![image](https://github.com/user-attachments/assets/70cb2738-3a5a-4c7c-aa20-67ab11e03779)
+****
+或是将cpp放在文件夹中，并在CmakeLists中注明（但是该文件夹仍然需要和CmakeLists在同一目录下）。  
+![image](https://github.com/user-attachments/assets/8df7cb93-5fee-42ba-90f7-1f474a322038)
+![image](https://github.com/user-attachments/assets/0aeabf5e-4bde-4997-a448-be93adf48878)
+
 
 # 编译配置
 在cmd中进入CmakeLists.txt所在文件夹，并调用cmake -S . -B build指令。  
