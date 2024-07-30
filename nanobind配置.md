@@ -35,7 +35,7 @@ cpp文件内部的写法如下。
 
 # 编译配置
 在cmd中进入CmakeLists.txt所在文件夹，并调用cmake -S . -B build指令。  
-再调用cmake --build build指令，即可在build文件夹中打包好模块。
+再调用cmake --build build指令，即可在build文件夹中打包好模块（**注意**，此时不要开着conda或python，不然报错）。
 
 # 调用cpp代码
 ### 一般调用
