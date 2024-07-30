@@ -72,4 +72,7 @@ install(TARGETS mc33 LIBRARY DESTINATION mc33)（前包，后library，表示把
 ![image](https://github.com/user-attachments/assets/f0484dd9-3966-4b80-99c1-67db0cfb525c)  
 ****
 3.之后去conda的包目录即可看见安装的lib。  
-![image](https://github.com/user-attachments/assets/09fce482-6fb1-4446-803d-631a224aa5c3)
+![image](https://github.com/user-attachments/assets/09fce482-6fb1-4446-803d-631a224aa5c3)  
+****
+4.import即可使用。  
+![image](https://github.com/user-attachments/assets/d3c0fd76-58f9-433c-8c49-52336b7488e3)
