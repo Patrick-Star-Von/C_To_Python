@@ -30,6 +30,7 @@ cpp文件内部的写法如下。
 再调用cmake --build build指令，即可在build文件夹中打包好模块。
 
 # 调用cpp代码
+### 一般调用
 **注意**，一定要进入build/Debug文件夹才能import到自己绑定的模块，否则会提示找不到。  
 进入build/Debug文件夹后，import自己指定的模块，再经由模块调用即可。  
 ![image](https://github.com/user-attachments/assets/4ae772fa-3368-4563-81bb-b9b1df09869a)
