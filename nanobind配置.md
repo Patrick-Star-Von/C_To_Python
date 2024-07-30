@@ -10,6 +10,12 @@ cpp文件内部的写法如下。
 **注意**，NB_MODULE宏标记了要生成什么模块，所以第一个参数必须和CmakeLists最后几行的模块名字对应，否则找不到。  
 ![image](https://github.com/user-attachments/assets/212ffcbf-7a7e-41f8-a14b-5dd8d7e9deaf)
 
+****
+### 注册类成员函数
+类的成员函数在注册时需要额外使用域符标记该函数。  
+![image](https://github.com/user-attachments/assets/7d58b4ff-bfef-47fa-8152-fc6c081c8c39)
+****
+
 ### cpp源文件位置
 和cmake的CmakeLists.txt以及build文件夹在一个层级下即可。  
 ![image](https://github.com/user-attachments/assets/70cb2738-3a5a-4c7c-aa20-67ab11e03779)
