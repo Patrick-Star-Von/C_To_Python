@@ -11,9 +11,11 @@ cpp文件内部的写法如下。
 ![image](https://github.com/user-attachments/assets/212ffcbf-7a7e-41f8-a14b-5dd8d7e9deaf)
 
 ****
-### 注册类成员函数
-类的成员函数在注册时需要额外使用域符标记该函数。  
-![image](https://github.com/user-attachments/assets/7d58b4ff-bfef-47fa-8152-fc6c081c8c39)
+### 注册类
+类的注册如下图。  
+![image](https://github.com/user-attachments/assets/3571a302-c86f-4725-b782-20ffe9c3cd90)
+![image](https://github.com/user-attachments/assets/33586406-f484-4ef1-a9f0-99031009c1f7)
+
 ****
 
 ### cpp源文件位置
@@ -35,4 +37,6 @@ cpp文件内部的写法如下。
 进入build/Debug文件夹后，import自己指定的模块，再经由模块调用即可。  
 ![image](https://github.com/user-attachments/assets/4ae772fa-3368-4563-81bb-b9b1df09869a)
 ****
-### 调用类成员函数
+### 声明以及调用类
+用如下方法即可声明和调用。  
+![image](https://github.com/user-attachments/assets/9bdba0e9-4202-4ca6-8336-a5acd6fc12ca)
