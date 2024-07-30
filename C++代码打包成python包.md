@@ -69,4 +69,7 @@ install(TARGETS mc33 LIBRARY DESTINATION mc33)（前包，后library，表示把
 # 安装依赖
 1.pyproject.toml中写的东西是打出来的包所需要的依赖信息，之后通过pip install可从中知道要安装什么。  
 2.conda进入该项目目录，并调用pip install . 来安装依赖。  
-![image](https://github.com/user-attachments/assets/f0484dd9-3966-4b80-99c1-67db0cfb525c)
+![image](https://github.com/user-attachments/assets/f0484dd9-3966-4b80-99c1-67db0cfb525c)  
+****
+3.之后去conda的包目录即可看见安装的lib。  
+![image](https://github.com/user-attachments/assets/09fce482-6fb1-4446-803d-631a224aa5c3)
