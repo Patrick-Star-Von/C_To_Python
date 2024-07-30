@@ -15,6 +15,9 @@ cpp文件内部的写法如下。
 类的注册如下图。  
 ![image](https://github.com/user-attachments/assets/3571a302-c86f-4725-b782-20ffe9c3cd90)
 ![image](https://github.com/user-attachments/assets/33586406-f484-4ef1-a9f0-99031009c1f7)
+****
+其中nb来自命名空间。  
+![image](https://github.com/user-attachments/assets/c9565000-daef-4bd8-ab72-228e06d0e875)
 
 ****
 
