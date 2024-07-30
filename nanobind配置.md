@@ -19,7 +19,9 @@ cpp文件内部的写法如下。
 其中nb来自命名空间。  
 ![image](https://github.com/user-attachments/assets/c9565000-daef-4bd8-ab72-228e06d0e875)
 ****
-而.def(nb::init<const std::string &>())表示注册构造函数。  
+而.def(nb::init<>())表示注册默认构造函数。  
+![image](https://github.com/user-attachments/assets/6eb41579-80df-4986-aec2-9b631a263b06)
+
 ****
 
 ### cpp源文件位置
