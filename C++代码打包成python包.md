@@ -74,5 +74,10 @@ install(TARGETS mc33 LIBRARY DESTINATION mc33)（前包，后library，表示把
 3.之后去conda的包目录即可看见安装的lib。  
 ![image](https://github.com/user-attachments/assets/09fce482-6fb1-4446-803d-631a224aa5c3)  
 ****
-4.import即可使用。  
+4.该包中会有一个.pyd结尾的文件，将该文件复制到DLLs文件夹中，即可全局调用。  
+![image](https://github.com/user-attachments/assets/5c4924c4-0898-4d80-af7a-cba1519aa924)  
+![image](https://github.com/user-attachments/assets/20dc0da3-0b57-48a2-99c4-be6dd96d9e83)
+
+****
+5.import即可使用。  
 ![image](https://github.com/user-attachments/assets/d3c0fd76-58f9-433c-8c49-52336b7488e3)
